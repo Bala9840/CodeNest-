@@ -19,4 +19,5 @@ const Editor = ({ language, value, onChange, height = '50vh' }) => {
   );
 };
 
+
 export default Editor;
