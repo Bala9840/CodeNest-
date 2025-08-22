@@ -1,0 +1,57 @@
+/* Editor.css - Professional Styling */
+.editor-container {
+  background-color: #1e1e1e;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  border: 1px solid var(--gray-700);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2);
+}
+
+.code-editor {
+  width: 100%;
+  background-color: #1e1e1e;
+  color: #d4d4d4;
+  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+  font-size: 14px;
+  line-height: 1.5;
+  padding: 16px;
+  border: none;
+  resize: vertical;
+  outline: none;
+  tab-size: 4;
+  -moz-tab-size: 4;
+  transition: all 0.2s ease;
+}
+
+.code-editor:focus {
+  box-shadow: 0 0 0 2px var(--blue-500);
+}
+
+.code-editor::placeholder {
+  color: var(--gray-500);
+  font-style: italic;
+}
+
+/* Syntax highlighting simulation */
+.code-editor {
+  caret-color: white;
+}
+
+/* Scrollbar styling for the textarea */
+.code-editor::-webkit-scrollbar {
+  width: 10px;
+}
+
+.code-editor::-webkit-scrollbar-track {
+  background: #2d2d2d;
+  border-radius: 4px;
+}
+
+.code-editor::-webkit-scrollbar-thumb {
+  background: #3e3e3e;
+  border-radius: 4px;
+}
+
+.code-editor::-webkit-scrollbar-thumb:hover {
+  background: #4e4e4e;
+}
