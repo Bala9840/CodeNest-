@@ -1,15 +1,34 @@
+/* Compiler.css - Professional Styling */
 .output-panel {
   min-height: 150px;
   max-height: 250px;
   overflow-y: auto;
+  background-color: var(--dark-800);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+  font-size: 0.875rem;
+  line-height: 1.5;
 }
 
 .tab-button {
   transition: all 0.2s ease;
+  padding: 0.5rem 1rem;
+  font-weight: 500;
+  border-bottom: 3px solid transparent;
+  background: transparent;
+  color: var(--gray-400);
+  cursor: pointer;
+}
+
+.tab-button:hover {
+  color: var(--gray-300);
+  background-color: rgba(255, 255, 255, 0.05);
 }
 
 .tab-button.active {
-  border-bottom: 3px solid #3b82f6;
+  color: var(--blue-400);
+  border-bottom-color: var(--blue-500);
 }
 
 /* Custom scrollbar for output panel */
@@ -18,14 +37,29 @@
 }
 
 .output-panel::-webkit-scrollbar-track {
-  background: #1e293b;
+  background: var(--dark-700);
+  border-radius: 4px;
 }
 
 .output-panel::-webkit-scrollbar-thumb {
-  background: #3b82f6;
+  background: var(--blue-500);
   border-radius: 4px;
 }
 
 .output-panel::-webkit-scrollbar-thumb:hover {
-  background: #2563eb;
+  background: var(--blue-600);
+}
+
+/* Animation for loading spinner */
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.fa-spinner {
+  animation: spin 1s linear infinite;
 }
