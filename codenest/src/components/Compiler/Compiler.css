@@ -1,0 +1,31 @@
+.output-panel {
+  min-height: 150px;
+  max-height: 250px;
+  overflow-y: auto;
+}
+
+.tab-button {
+  transition: all 0.2s ease;
+}
+
+.tab-button.active {
+  border-bottom: 3px solid #3b82f6;
+}
+
+/* Custom scrollbar for output panel */
+.output-panel::-webkit-scrollbar {
+  width: 8px;
+}
+
+.output-panel::-webkit-scrollbar-track {
+  background: #1e293b;
+}
+
+.output-panel::-webkit-scrollbar-thumb {
+  background: #3b82f6;
+  border-radius: 4px;
+}
+
+.output-panel::-webkit-scrollbar-thumb:hover {
+  background: #2563eb;
+}
