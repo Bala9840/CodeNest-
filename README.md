@@ -54,12 +54,12 @@ CodeNest is a simple and interactive **online code compiler** where users can se
   <!-- Home Page -->
   <h3>🏠 Home Page</h3>
   <!-- Replace with your actual image path -->
-  <img src="assets/home.png" alt="CodeNest Home Page" width="900" />
+  <img src="public/images/otuput1.jpg" alt="CodeNest Home Page" width="900" />
 
   <!-- Compiler Page -->
   <h3>🧪 Compiler Page</h3>
   <!-- Replace with your actual image path -->
-<img src="public/images/output1.jpg" alt="CodeNest Compiler Page" width="900" />
+ <img src="public/images/output2.jpg" alt="CodeNest Compiler Page" width="900" />
 
 
   <!-- Verify Website Button -->
