@@ -1,4 +1,4 @@
-﻿# 🚀 CodeNest - Online Code Compiler  
+﻿# 💻 CodeNest - Online Code Compiler  
 
 CodeNest is a simple and interactive **online code compiler** where users can select a programming language (Python, JavaScript, C++, Java) from the main page and start coding directly in the browser.  
 
@@ -92,7 +92,7 @@ src/
 
 <p align="center">
   <a href="https://codesnest.netlify.app/" target="_blank" rel="noopener noreferrer">
-    <img src="" alt="Visit CodeNest Live Website" />
+    <img src="public/codenest.png" alt="Visit CodeNest Live Website" />
   </a>
 </p>
 
