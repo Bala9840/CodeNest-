@@ -77,13 +77,13 @@ src/
 
 <div align="center">
 
-  ### 🏠 Home Page
+  ### 🏠 Home Page ⬇️
   <img src="public/images/otuput1.jpg" alt="CodeNest Home Page" width="1000" />
 
-  ###  Compiler Page
+  ### ⚙️Compiler Page ⬇️
   <img src="public/images/otuput2.jpg" alt="CodeNest Compiler Page" width="1000" />
 
-  ###  Output Page
+  ###  💻Output Page ⬇️
   <img src="public/images/otuput3.jpg" alt="CodeNest Output Page" width="1000" />
 
 </div>
