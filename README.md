@@ -26,7 +26,7 @@ CodeNest is a simple and interactive **online code compiler** where users can se
 
 1. Clone the repository  
    ```bash
-   git clone https://github.com/Bala9840/CodeNest-.git
+   git clone https://github.com/Bala9840/CodeNest.git
 
 2. Navigate to the project folder
 
@@ -46,27 +46,38 @@ CodeNest is a simple and interactive **online code compiler** where users can se
 
 ---
 
-## 📸 Output
+<!-- 📸 Output -->
+<h2 id="output">📸 Output</h2>
 
-### 🎯 Home Page
+<div align="center">
 
-> Card-based UI showing available languages.
+  <!-- Home Page -->
+  <h3>🏠 Home Page</h3>
+  <!-- Replace with your actual image path -->
+  <img src="assets/home.png" alt="CodeNest Home Page" width="900" />
 
-### 🎯 Compiler Page
+  <!-- Compiler Page -->
+  <h3>🧪 Compiler Page</h3>
+  <!-- Replace with your actual image path -->
+  <img src="assets/compiler.png" alt="CodeNest Compiler Page" width="900" />
 
-> Code editor + Run button + Output section.
+  <!-- Verify Website Button -->
+  <p>
+    <a href="https://codesnest.netlify.app/" target="_blank" rel="noopener noreferrer">
+      <img
+        alt="Verify Website"
+        src="https://img.shields.io/badge/Verify%20Website-Click%20to%20Open-informational?logo=netlify"
+      />
+    </a>
+  </p>
+
+</div>
 
 ---
 
 ## 🔗 Source Code
 
-[👉 GitHub Repository](https://github.com/Bala9840/CodeNest-)
+[👉 GitHub Repository](https://github.com/Bala9840/CodeNest)
 
 ---
 
-```
-
-✅ Now GitHub will show it with headings, code blocks, and links properly.  
-
-Do you also want me to **add demo screenshots section with placeholders** (like `![Home Page](assets/home.png)`) so you can just drop images later?
-```
