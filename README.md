@@ -78,13 +78,13 @@ src/
 <div align="center">
 
   ### 🏠 Home Page
-  <img src="public/images/output1.jpg" alt="CodeNest Home Page" width="800" />
+  <img src="public/images/otuput1.jpg" alt="CodeNest Home Page" width="1000" />
 
   ###  Compiler Page
-  <img src="public/images/output2.jpg" alt="CodeNest Compiler Page" width="800" />
+  <img src="public/images/otuput2.jpg" alt="CodeNest Compiler Page" width="1000" />
 
   ###  Output Page
-  <img src="public/images/output3.jpg" alt="CodeNest Output Page" width="800" />
+  <img src="public/images/otuput3.jpg" alt="CodeNest Output Page" width="1000" />
 
 </div>
 
@@ -92,9 +92,7 @@ src/
 
 <p align="center">
   <a href="https://codesnest.netlify.app/" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/🔗_Visit_CodeNest-Live_Website-blue?style=for-the-badge&logo=netlify" alt="Visit CodeNest Live Website" />
-    <br>
-    <strong>Click above to view the live website</strong>
+    <img src="" alt="Visit CodeNest Live Website" />
   </a>
 </p>
 
