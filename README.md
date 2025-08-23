@@ -89,14 +89,15 @@ src/
 </div>
 
 ---
-
 <p align="center">
   <a href="https://codesnest.netlify.app/" target="_blank" rel="noopener noreferrer">
-    <img src="public/codenest.png" alt="Visit CodeNest Live Website" height:"100" width:"100"  />
+    <img src="public/codenest.png" alt="Visit CodeNest Live Website" height="100" width="100" />
   </a>
-   <br>
-   <h6>Click This Image 👆 To View The Live Website</h6>
 </p>
+
+<div align="center">
+  <h6>Click This Image 👆 To View The Live Website</h6>
+</div>
 
 ---
 
