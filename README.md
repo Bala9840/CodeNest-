@@ -59,15 +59,19 @@ CodeNest is a simple and interactive **online code compiler** where users can se
   <!-- Compiler Page -->
   <h3>🧪 Compiler Page</h3>
   <!-- Replace with your actual image path -->
- <img src="public/images/output2.jpg" alt="CodeNest Compiler Page" width="900" />
+ <img src="public/images/otuput2.jpg" alt="CodeNest Compiler Page" width="900" />
 
+  <!-- Output Page -->
+  <h3>💻 Output Page</h3>
+  <!-- Replace with your actual image path -->
+ <img src="public/images/otuput3.jpg" alt="CodeNest Compiler Page" width="900" />
 
   <!-- Verify Website Button -->
   <p>
     <a href="https://codesnest.netlify.app/" target="_blank" rel="noopener noreferrer">
       <img
-        alt="Verify Website"
-        src="https://codesnest.netlify.app/"
+        alt=" 🔗 View Website"
+        src=""
       />
     </a>
   </p>
