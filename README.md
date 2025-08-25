@@ -1,84 +1,125 @@
+#  CodeNest - Online Code Compiler  
 
-````markdown
-````
-# ğŸš€ CodeNest - Online Code Compiler  
-
-CodeNest is a simple and interactive **online code compiler** where users can select a programming language (C, C++, Java, Python, etc.) from the main page and start coding directly in the browser.  
+CodeNest is a simple and interactive **online code compiler** where users can select a programming language (Python, JavaScript, C++, Java) from the main page and start coding directly in the browser.  
 
 ---
 
-## âœ¨ Features  
-- ğŸ–¥ï¸ Card-style main page with multiple languages.  
-- âš¡ Instant compiler interface when a language is selected.  
-- ğŸ“‚ Organized project structure.  
-- ğŸ¨ Clean and user-friendly UI.  
+##  Features  
+-  Card-style main page with multiple languages.  
+-  Instant compiler interface when a language is selected.  
+-  Organized project structure.  
+-  Clean and user-friendly UI.  
 
 ---
 
-## ğŸ› ï¸ Tech Stack  
-- **Frontend**: HTML, CSS, JavaScript  
-- **Backend**: Node.js  
-- **Compiler**: Integrated API / Local execution  
+##  Tech Stack  
+- **Frontend**: React, CSS, JavaScript  
+- **Backend**: Piston API  
+- **Compiler**: Piston API for code execution
 
----
+##  Project File Structure   
 
-## ğŸš€ Installation  
+```
+src/
+ components/
+    Home/
+       Home.js – Renders the homepage UI
+       Home.css – Styles for the homepage
+   
+    Compiler/
+       Compiler.js – Online compiler logic & UI
+       Compiler.css – Styles for compiler page
+   
+    Editor/
+       Editor.js – Code editor integration
+       Editor.css – Styles for editor
+   
+    NotFound/
+        NotFound.js – 404 page handling
+¦       +-- NotFound.css – Styles for NotFound page
+¦
++-- services/
+¦   +-- api.js – API functions for backend/compilation requests
+¦
++-- constants/
+    codeTemplates.js – Default code templates for each language
+¦
++-- App.js – Main app component
+ App.css – Global styles
+ index.js – Entry point of the React app
+```
+
+##  Installation  
 
 1. Clone the repository  
    ```bash
    git clone https://github.com/Bala9840/CodeNest.git
+   ```
 
 2. Navigate to the project folder
-
    ```bash
-   cd CodeNest-
+   cd CodeNest
    ```
-3. Install dependencies
 
+3. Install dependencies
    ```bash
    npm install
    ```
-4. Run the project
 
+4. Run the project
    ```bash
    npm start
    ```
 
 ---
 
-<!-- ğŸ“¸ Output -->
-<h2 id="output">ğŸ“¸ Output</h2>
+<!-- ?? Output -->
+<h2 id="output">?? Output</h2>
 
 <div align="center">
 
   <!-- Home Page -->
-  <h3>ğŸ  Home Page</h3>
+  <h3>?? Home Page</h3>
   <!-- Replace with your actual image path -->
-  <img src="assets/home.png" alt="CodeNest Home Page" width="900" />
+  <img src="public/images/output1.jpg" alt="CodeNest Home Page" width="800" />
 
   <!-- Compiler Page -->
-  <h3>ğŸ§ª Compiler Page</h3>
+  <h3>?? Compiler Page</h3>
   <!-- Replace with your actual image path -->
-<img src="public/images/output1.jpg" alt="CodeNest Compiler Page" width="900" />
+  <img src="public/images/output2.jpg" alt="CodeNest Compiler Page" width="800" />
 
-
-  <!-- Verify Website Button -->
-  <p>
-    <a href="https://codesnest.netlify.app/" target="_blank" rel="noopener noreferrer">
-      <img
-        alt="Verify Website"
-        src="https://codesnest.netlify.app/"
-      />
-    </a>
-  </p>
+  <!-- Output Page -->
+  <h3>?? Output Page</h3>
+  <!-- Replace with your actual image path -->
+  <img src="public/images/output3.jpg" alt="CodeNest Output Page" width="800" />
 
 </div>
 
 ---
 
-## ğŸ”— Source Code
-
-[ğŸ‘‰ GitHub Repository](https://github.com/Bala9840/CodeNest)
+  <!-- Verify Website Button -->
+<p align="center">
+  <a href="https://codesnest.netlify.app/" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/_Visit_CodeNest-Live_Website-blue?style=for-the-badge&logo=netlify" alt="Visit CodeNest Live Website" />
+    <br>
+    <strong>Click above to view the live website</strong>
+  </a>
+</p>
 
 ---
 
+##  Source Code
+
+[ GitHub Repository](https://github.com/Bala9840/CodeNest)
+
+---
+
+##  License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+<p align="center">
+  <strong> Star this repo if you found it helpful!</strong>
+</p>

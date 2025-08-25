@@ -130,12 +130,21 @@
   display: inline-flex;
   align-items: center;
   color: var(--blue-400);
-  background: none;
-  border: none;
+  background-color: rgb(255, 0, 0);
+  color: white;
+  font-size: 14px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 50px;
+  border-color: black;
+  border-style: solid;
+  border-width: 2px;
   cursor: pointer;
   font-weight: 500;
   transition: color 0.2s ease;
-  padding: 0;
+
+
 }
 
 .back-button:hover {

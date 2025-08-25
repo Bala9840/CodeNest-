@@ -18,6 +18,8 @@ const Compiler = () => {
     setCode(codeTemplates[lang] || '// Write your code here');
   }, [lang]);
 
+
+
   const runCode = async () => {
     setIsLoading(true);
     setOutput('Running your code...');
