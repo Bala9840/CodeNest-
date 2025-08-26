@@ -49,36 +49,6 @@ src/
 └── index.js – Entry point of the React app
 ```
 
-```
-src/
- components/
-    Home/
-       Home.js � Renders the homepage UI
-       Home.css � Styles for the homepage
-   
-    Compiler/
-       Compiler.js � Online compiler logic & UI
-       Compiler.css � Styles for compiler page
-   
-    Editor/
-       Editor.js � Code editor integration
-       Editor.css � Styles for editor
-   
-    NotFound/
-        NotFound.js � 404 page handling
-�       +-- NotFound.css � Styles for NotFound page
-�
-+-- services/
-�   +-- api.js � API functions for backend/compilation requests
-�
-+-- constants/
-    codeTemplates.js � Default code templates for each language
-�
-+-- App.js � Main app component
- App.css � Global styles
- index.js � Entry point of the React app
-```
-
 ##  Installation  
 
 1. Clone the repository  
@@ -119,24 +89,14 @@ src/
 </div>
 
 ---
-<p align="center">
-  <a href="https://codesnest.netlify.app/" target="_blank" rel="noopener noreferrer">
-    <img src="public/codenest.png" alt="Visit CodeNest Live Website" height="100" width="100" />
-  </a>
-</p>
 
-<div align="center">
-  <h6>Click This Image 👆 To View The Live Website</h6>
-</div>
-
----
 
   <!-- Verify Website Button -->
 <p align="center">
   <a href="https://codesnest.netlify.app/" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/_Visit_CodeNest-Live_Website-blue?style=for-the-badge&logo=netlify" alt="Visit CodeNest Live Website" />
     <br>
-    <strong>Click above to view the live website</strong>
+
   </a>
 </p>
 
