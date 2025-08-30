@@ -75,16 +75,16 @@ src/
 
 ## 📸 Output
 
-<div align="center">
+<div align="center"><br>
 
   ### 🏠 Home Page ⬇️
-  <img src="public/images/otuput1.jpg" alt="CodeNest Home Page" width="1000" />
+  <img src="public/images/otuput1.jpg" alt="CodeNest Home Page" width="1000" /><hr><br><br>
 
   ### ⚙️Compiler Page ⬇️
-  <img src="public/images/otuput2.jpg" alt="CodeNest Compiler Page" width="1000" />
+  <img src="public/images/otuput2.jpg" alt="CodeNest Compiler Page" width="1000" /><hr><br><br>
 
   ###  💻Output Page ⬇️
-  <img src="public/images/otuput3.jpg" alt="CodeNest Output Page" width="1000" />
+  <img src="public/images/otuput3.jpg" alt="CodeNest Output Page" width="1000" /><br>
 
 </div>
 
