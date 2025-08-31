@@ -85,7 +85,6 @@ src/
 
   ###  💻Output Page ⬇️
   <img src="public/images/otuput3.jpg" alt="CodeNest Output Page" width="1000" /><br>
-  
 
 </div>
 
